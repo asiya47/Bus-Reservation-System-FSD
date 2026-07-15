@@ -6,9 +6,7 @@ A modern **Full Stack Bus Reservation System** that allows users to search buses
 
 ## 🚀 Live Demo
 
-🔗 **Frontend:** _Coming Soon_
-
-🔗 **Backend API:** _Coming Soon_
+🔗 http://localhost:5173/
 
 ---
 
