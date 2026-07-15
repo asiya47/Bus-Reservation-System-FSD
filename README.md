@@ -6,7 +6,7 @@ A modern **Full Stack Bus Reservation System** that allows users to search buses
 
 ## 🚀 Live Demo
 
-🔗 http://localhost:5173/
+🔗 Front end:https://bus-reservation-system-kpkrbqw42-asiyabenazeer-2964s-projects.vercel.app/
 
 ---
 
