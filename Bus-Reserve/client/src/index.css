@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap");
+@import "tailwindcss";
+
+:root {
+  --color-navy: #101828;
+  --color-navy-light: #1e2a3f;
+
+  /* Original accent palette — used by Booking/Payment/Ticket/etc */
+  --color-teal: #0e7c66;
+  --color-teal-dark: #0a5f4f;
+  --color-marigold: #f5a300;
+  --color-marigold-light: #ffc247;
+
+  /* Clean corporate accent — used on the home page */
+  --color-accent: #0e7490;
+  --color-accent-dark: #0b5563;
+  --color-accent-light: #e0f2f4;
+  --color-gold: #c99a2e;
+
+  --color-rust: #c1440e;
+  --color-ink: #1c1f2b;
+  --color-slate: #5b6272;
+  --color-paper: #f6f7fb;
+
+  --font-display: "Space Grotesk", "Inter", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+}
+
+.font-ticket {
+  font-family: var(--font-mono);
+  letter-spacing: 0.08em;
+}
